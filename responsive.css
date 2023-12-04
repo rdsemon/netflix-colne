@@ -1,0 +1,142 @@
+@media (max-width: 1199px) {
+  .form-information {
+    width: 63%;
+    margin-bottom: 55px;
+  }
+  .tv-text h1 {
+    font-size: 48px;
+    margin-bottom: 27px;
+  }
+  .tv-text p {
+    font-size: 19px;
+  }
+  .last-form {
+    width: 58%;
+    position: relative;
+  }
+}
+
+@media (max-width: 992px) {
+  .all-text h1 {
+    font-size: 36px;
+  }
+  .form-information {
+    width: 86%;
+  }
+  .tv-items {
+    padding: 0px;
+  }
+  .tv-text h1 {
+    font-size: 37px;
+    margin-bottom: 27px;
+  }
+  .download-text h1 {
+    font-size: 30px;
+  }
+  .download-text p {
+    font-size: 18px;
+  }
+  .kids-text h1 {
+    font-size: 42px;
+  }
+  .kids-text p {
+    font-size: 17px;
+    margin-top: 23px;
+  }
+  .last-form {
+    width: 81%;
+  }
+  .question-items p {
+    font-size: 18px;
+  }
+  .language h6 svg {
+    width: 19%;
+  }
+  .language h6 {
+    width: 43%;
+  }
+}
+
+@media (max-width: 768px) {
+  .netflix-text-form {
+    height: auto;
+  }
+  .all-text h1 {
+    font-size: 31px;
+    font-weight: 900;
+  }
+
+  .all-text h5 {
+    font-size: 23px;
+  }
+  .all-text p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .form-information {
+    width: 100%;
+  }
+  .last-form {
+    width: 100%;
+  }
+  .final-button {
+    text-align: center;
+    width: 100%;
+    display: block;
+  }
+  .language h6 {
+    width: 63%;
+  }
+  .label2 {
+    top: 12%;
+  }
+  .email-button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  #header {
+    padding: 0px 19px;
+  }
+  .all-text p {
+    font-size: 17px;
+  }
+  .tv-image-video {
+    position: relative;
+    width: 100%;
+    right: 3%;
+  }
+  .download-text {
+    padding: 0px 23px;
+  }
+  .watch-section {
+    padding: 0px 23px;
+  }
+  .kids-text {
+    padding: 0px 23px;
+  }
+  .kids-text h1 {
+    font-size: 38px;
+  }
+  #question {
+    padding: 0px 23px;
+  }
+  #footer {
+    padding: 0px 23px;
+  }
+  .language h6 {
+    width: 32%;
+  }
+}
+@media (max-width: 405) {
+  .language h6 {
+    width: 43%;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+  .language h6 {
+    width: 57%;
+  }
+}

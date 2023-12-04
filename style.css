@@ -1,0 +1,324 @@
+body,
+html {
+  font-family: "Anton", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  background: #000;
+}
+
+.fixed-width {
+  max-width: 781px;
+  margin: auto;
+}
+.netflix-color {
+  color: rgb(229, 9, 20);
+}
+.netflix-color2 {
+  background-color: rgb(229, 9, 20);
+}
+#header {
+  background-image: url(./image/logo01.jpg);
+  background-size: cover;
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  filter: brightness(1.5);
+}
+
+#header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.78;
+  z-index: -1;
+}
+.netflix-text-form {
+  height: 80vh;
+}
+.all-text h1,
+h5,
+p {
+  color: white;
+}
+.form-information {
+  width: 50%;
+  position: relative;
+}
+.all-text {
+  line-height: 2rem;
+}
+.all-text h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+.all-text h5 {
+  margin: 26px;
+}
+.all-text p {
+  font-size: 18px;
+  font-weight: 300;
+}
+.netflix-email-inforamtion {
+}
+.start-button {
+  /* text-align: center; */
+  width: 100%;
+}
+
+.button2 {
+  padding: 14px 0px;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.input-form {
+  background-color: black;
+  outline: none;
+  color: white;
+  background: transparent;
+  font-size: 18px;
+  padding: 15px 11px;
+  width: 100%;
+}
+.label {
+  color: #ebe3d5;
+  position: absolute;
+  top: 16px;
+  left: 14px;
+  transition: 0.4s;
+  pointer-events: none;
+  font-weight: bolder;
+}
+.input-form:focus {
+  background-color: black;
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.input-form:focus ~ .label,
+.input-form:not(:placeholder-shown).input-form:not(:focus) ~ .label {
+  font-size: 13px;
+  top: -1px;
+}
+
+.nt {
+  border: 1px solid blue;
+}
+
+.line {
+  width: 100%;
+  height: 11px;
+  background-color: rgb(35, 35, 35);
+}
+.tv-items {
+  margin-left: 20px;
+}
+.tv-text h1 {
+  color: white;
+  font-size: 54px;
+  font-weight: 700;
+}
+
+.tv-text p {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.tv-image-video {
+  position: relative;
+  width: 100%;
+}
+.tv-image-video img {
+  z-index: 10;
+  position: relative;
+  width: 100%;
+}
+.tv-image-video video {
+  position: absolute;
+  top: 21%;
+  width: 73%;
+  left: 13%;
+}
+.download-all-items {
+  /* position: relative; */
+}
+.download-image img {
+  width: 100%;
+}
+.download-text h1 {
+  color: white;
+  font-weight: 700;
+}
+.download-text p {
+  font-size: 20px;
+  font-weight: 500;
+}
+.download-items3 {
+  border: 2px solid rgba(128, 128, 128, 0.7);
+  display: flex;
+  justify-content: space-between;
+  padding: 7px;
+  border-radius: 20px;
+  width: 66%;
+  height: 19%;
+  align-items: center;
+  position: absolute;
+  top: 77%;
+  left: 18%;
+  background-color: black;
+}
+.download-items3 img {
+  width: 11%;
+}
+.download-items3 h4 {
+  color: white;
+  font-size: 15px;
+}
+.download-items3 p {
+  color: #3081d0;
+  font-weight: bold;
+  font-size: 10px;
+}
+.download-items3 .image-2 {
+}
+.watch-section {
+  /* width: 86%; */
+}
+.watch-section h1 {
+  color: white;
+  font-weight: 700;
+}
+
+.watch-section p {
+  font-size: 19px;
+  font-weight: 500;
+  margin-top: 23px;
+}
+
+.kids-items {
+}
+.kids-image img {
+  width: 100%;
+}
+.kids-text h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 46px;
+}
+.kids-text p {
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 23px;
+}
+.footer-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer-menu li {
+  margin-bottom: 20px;
+}
+.footer-menu a {
+  color: rgba(255, 255, 255, 0.7);
+  display: inline-block;
+}
+.download-all-items2 {
+  position: relative;
+}
+.all-question-items {
+  min-width: 100vh;
+}
+.question-items h1 {
+  color: white;
+  text-align: center;
+  width: 100%;
+  margin-top: 35px;
+}
+.question-list .question-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.question-list .question-menu li {
+  color: white;
+  background-color: rgb(45, 45, 45);
+  margin-bottom: 27px;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.question-list .question-menu li h3 {
+  font-size: 21px;
+}
+.question-items p {
+  width: 100%;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 500;
+  margin-top: 48px;
+  margin-bottom: 38px;
+}
+.last-form {
+  width: 46%;
+  position: relative;
+}
+.email-form {
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  padding: 15px;
+}
+.email-form:focus {
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+}
+
+.label2 {
+  color: whitesmoke;
+  position: absolute;
+  top: 20%;
+  left: 3%;
+  cursor: text;
+  transition: 0.4s;
+  pointer-events: none;
+}
+
+.email-form:focus ~ .label2,
+.email-form:not(:placeholder-shown).email-form:not(:focus) ~ .label2 {
+  font-size: 10px;
+  top: 1px;
+}
+.eamil-button {
+}
+
+.language h6 {
+  color: white;
+  border: 1px solid white;
+  display: inline-block;
+  padding: 8px 14px;
+  font-size: 17px;
+  margin-bottom: 15px;
+  width: 58%;
+  border-radius: 10px;
+}
+
+.language h6 svg {
+  display: inline-block;
+  width: 22%;
+  height: auto;
+}
+.language h6 svg span {
+  display: inline-block;
+  width: 22%;
+  height: auto;
+}
